@@ -17,6 +17,9 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -42,10 +45,17 @@
     <!-- Add your site or app content here -->
 
     <!-- build:js scripts/main.min.js -->
-    <div>
-      <span class="title">Omars portfolio</span>
+    <div id="title">
+      <span contenteditable="true">Omars portfolio</span>
     </div>
 
+
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+      <i class="material-icons">add</i>
+    </button>
+
     <script src="scripts/main.js"></script>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
   </body>
 </html>
